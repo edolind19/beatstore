@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def startseite():
-    return Startseite.html
+def helloWorld():
+    return "Startseite.html"
 
 
 if __name__ == '__main__':
